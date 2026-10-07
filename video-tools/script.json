@@ -1,0 +1,54 @@
+[
+  {
+    "id": "01_intro",
+    "narration": "This is the AI Government Benefits Navigator: an AI-powered assistant that helps citizens discover, understand, and access government welfare schemes."
+  },
+  {
+    "id": "02_categories",
+    "narration": "It covers ten benefit categories, including education, agriculture, healthcare, and housing, all backed by a verified, structured scheme database that the AI never invents on its own."
+  },
+  {
+    "id": "03_goto_chat",
+    "narration": "Let's ask it a question the way a real user would, in plain natural language."
+  },
+  {
+    "id": "04_type_message",
+    "narration": "I am a twenty year old engineering student from Tamil Nadu. My family income is around one point five lakh rupees per year. What scholarships can I apply for?"
+  },
+  {
+    "id": "05_extraction",
+    "narration": "The assistant extracts a structured profile, including age, state, student status, and income, using a dedicated extraction step, not a guess."
+  },
+  {
+    "id": "06_matching",
+    "narration": "It retrieves candidate schemes from the verified database and runs each one through a transparent eligibility engine, with no arbitrary confidence scores, just clear matched, missing, and failed conditions."
+  },
+  {
+    "id": "07_why",
+    "narration": "Every recommendation explains exactly why it was suggested, and what information is still missing, right inside the card."
+  },
+  {
+    "id": "08_documents",
+    "narration": "It also produces a clear document checklist, distinguishing required documents from possibly required ones."
+  },
+  {
+    "id": "09_details",
+    "narration": "The full scheme page shows the complete eligibility breakdown, step by step application instructions, and a direct link to the official government source."
+  },
+  {
+    "id": "10_source",
+    "narration": "Every scheme is clearly labeled with its source and last verified date. This particular dataset is sample data for the demo, and is never presented as real."
+  },
+  {
+    "id": "11_profile",
+    "narration": "Users who prefer not to type free text can fill a short guided profile instead. No Aadhaar numbers, passwords, or bank details are ever requested."
+  },
+  {
+    "id": "12_benefits",
+    "narration": "The My Benefits dashboard tracks likely eligible, needs verification, and saved schemes at a glance, with clear recommended next steps."
+  },
+  {
+    "id": "13_outro",
+    "narration": "Government benefits already exist. The problem is access. This tool bridges that gap with transparent, explainable, and multilingual guidance in English and Tamil."
+  }
+]

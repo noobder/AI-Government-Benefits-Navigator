@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+*.db
+
+# Node
+node_modules/
+dist/
+*.log
+*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
+
+# Env
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Regeneratable video-tools intermediates (final output demo/flow_recording.mp4 is kept)
+video-tools/audio/
+video-tools/raw_video/
+video-tools/frames/
+video-tools/*.png

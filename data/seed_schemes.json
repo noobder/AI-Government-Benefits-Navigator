@@ -1,0 +1,862 @@
+[
+  {
+    "scheme_id": "demo_edu_001",
+    "scheme_name": "[DEMO] Tamil Nadu Engineering Student Support Scholarship",
+    "description": "A demo scholarship for undergraduate engineering students from low-income families in Tamil Nadu. This is a SAMPLE scheme for demonstration purposes only and does not represent a real government scheme.",
+    "category": "Education",
+    "ministry": "Demo Ministry of Education",
+    "department": "Demo Directorate of Technical Education",
+    "level": "State",
+    "applicable_states": ["Tamil Nadu"],
+    "target_beneficiaries": ["students", "engineering students", "low-income families"],
+    "eligibility_rules": {
+      "operator": "AND",
+      "conditions": [
+        {"field": "student", "operator": "==", "value": true},
+        {"field": "state", "operator": "==", "value": "Tamil Nadu"},
+        {"field": "annual_income", "operator": "<=", "value": 200000},
+        {"field": "course", "operator": "==", "value": "engineering"}
+      ]
+    },
+    "exclusions": ["Students already receiving another central scholarship of equal or higher value"],
+    "benefits": ["Annual financial assistance of up to a sample amount toward tuition and academic expenses"],
+    "required_documents": ["Income certificate", "Student ID / bonafide certificate", "Previous year academic records", "Aadhaar-independent address proof (e.g. ration card)"],
+    "application_steps": [
+      "Prepare the required documents (income certificate, student ID, academic records).",
+      "Visit the official state scholarship portal.",
+      "Register or log in to your account.",
+      "Fill in the scholarship application form.",
+      "Upload the required documents.",
+      "Submit the application and note your reference number."
+    ],
+    "official_url": "https://www.tn.gov.in/scheme/data_view/DEMO",
+    "source_url": "https://www.tn.gov.in/scheme/data_view/DEMO",
+    "source_name": "DEMO - Sample data for hackathon, not a real source",
+    "last_verified": "2026-01-01",
+    "languages": ["en", "ta"],
+    "is_demo": true,
+    "translations": {
+      "hi": {
+        "scheme_name": "[डेमो] तमिलनाडु इंजीनियरिंग छात्र सहायता छात्रवृत्ति",
+        "description": "तमिलनाडु में कम आय वाले परिवारों के स्नातक इंजीनियरिंग छात्रों के लिए एक डेमो छात्रवृत्ति। यह केवल प्रदर्शन उद्देश्यों के लिए एक नमूना योजना है और किसी वास्तविक सरकारी योजना का प्रतिनिधित्व नहीं करती।",
+        "benefits": ["ट्यूशन और शैक्षणिक खर्चों के लिए एक नमूना राशि तक वार्षिक वित्तीय सहायता"],
+        "required_documents": ["आय प्रमाण पत्र", "छात्र आईडी / बोनाफाइड प्रमाण पत्र", "पिछले वर्ष के शैक्षणिक रिकॉर्ड", "आधार-स्वतंत्र पता प्रमाण (जैसे राशन कार्ड)"],
+        "application_steps": [
+          "आवश्यक दस्तावेज़ तैयार करें (आय प्रमाण पत्र, छात्र आईडी, शैक्षणिक रिकॉर्ड)।",
+          "आधिकारिक राज्य छात्रवृत्ति पोर्टल पर जाएं।",
+          "अपने खाते में पंजीकरण करें या लॉग इन करें।",
+          "छात्रवृत्ति आवेदन फ़ॉर्म भरें।",
+          "आवश्यक दस्तावेज़ अपलोड करें।",
+          "आवेदन सबमिट करें और अपना संदर्भ नंबर नोट करें।"
+        ]
+      },
+      "ta": {
+        "scheme_name": "[டெமோ] தமிழ்நாடு பொறியியல் மாணவர் ஆதரவு உதவித்தொகை",
+        "description": "தமிழ்நாட்டில் குறைந்த வருமானம் கொண்ட குடும்பங்களைச் சேர்ந்த இளங்கலை பொறியியல் மாணவர்களுக்கான டெமோ உதவித்தொகை. இது டெமோ நோக்கத்திற்காக மட்டுமே ஒரு மாதிரி திட்டம் மற்றும் உண்மையான அரசு திட்டத்தைக் குறிக்கவில்லை.",
+        "benefits": ["கல்விக்கட்டணம் மற்றும் கல்விச் செலவுகளுக்கு மாதிரி தொகை வரை ஆண்டு நிதி உதவி"],
+        "required_documents": ["வருமான சான்றிதழ்", "மாணவர் அடையாள அட்டை / நம்பகத்தன்மை சான்றிதழ்", "முந்தைய ஆண்டு கல்வி பதிவுகள்", "ஆதார் இல்லாத முகவரி சான்று (எ.கா. ரேஷன் அட்டை)"],
+        "application_steps": [
+          "தேவையான ஆவணங்களைத் தயார் செய்யவும் (வருமான சான்றிதழ், மாணவர் அடையாள அட்டை, கல்வி பதிவுகள்).",
+          "அதிகாரப்பூர்வ மாநில உதவித்தொகை போர்ட்டலுக்குச் செல்லவும்.",
+          "உங்கள் கணக்கில் பதிவு செய்யவும் அல்லது உள்நுழையவும்.",
+          "உதவித்தொகை விண்ணப்பப் படிவத்தை நிரப்பவும்.",
+          "தேவையான ஆவணங்களைப் பதிவேற்றவும்.",
+          "விண்ணப்பத்தைச் சமர்ப்பித்து உங்கள் குறிப்பு எண்ணைக் குறித்துக்கொள்ளவும்."
+        ]
+      }
+    }
+  },
+  {
+    "scheme_id": "demo_edu_002",
+    "scheme_name": "[DEMO] National Merit-cum-Means Scholarship (Sample)",
+    "description": "A demo central scholarship for meritorious students from economically weaker sections across India. Sample data only.",
+    "category": "Education",
+    "ministry": "Demo Ministry of Human Resource Development",
+    "department": "Demo Department of School Education",
+    "level": "Central",
+    "applicable_states": ["All States"],
+    "target_beneficiaries": ["students", "economically weaker sections"],
+    "eligibility_rules": {
+      "operator": "AND",
+      "conditions": [
+        {"field": "student", "operator": "==", "value": true},
+        {"field": "annual_income", "operator": "<=", "value": 150000},
+        {"field": "previous_academic_percentage", "operator": ">=", "value": 55}
+      ]
+    },
+    "exclusions": [],
+    "benefits": ["Monthly stipend (sample amount) for eligible students"],
+    "required_documents": ["Income certificate", "Marksheet of qualifying examination", "Bank passbook (school/institution verified, not required by app)"],
+    "application_steps": [
+      "Prepare your marksheet and income certificate.",
+      "Visit the National Scholarship Portal.",
+      "Register as a new applicant.",
+      "Fill the application and upload documents.",
+      "Get the application verified by your institution.",
+      "Submit and track your application status online."
+    ],
+    "official_url": "https://scholarships.gov.in/",
+    "source_url": "https://scholarships.gov.in/",
+    "source_name": "DEMO - Sample data for hackathon, not a real source",
+    "last_verified": "2026-01-01",
+    "languages": ["en", "ta", "hi"],
+    "is_demo": true,
+    "translations": {
+      "hi": {
+        "scheme_name": "[डेमो] राष्ट्रीय मेधा-सह-साधन छात्रवृत्ति (नमूना)",
+        "description": "भारत भर के आर्थिक रूप से कमजोर वर्गों के मेधावी छात्रों के लिए एक डेमो केंद्रीय छात्रवृत्ति। केवल नमूना डेटा।",
+        "benefits": ["पात्र छात्रों के लिए मासिक वृत्तिका (नमूना राशि)"],
+        "required_documents": ["आय प्रमाण पत्र", "योग्यता परीक्षा की मार्कशीट", "बैंक पासबुक (स्कूल/संस्थान सत्यापित, ऐप द्वारा आवश्यक नहीं)"],
+        "application_steps": [
+          "अपनी मार्कशीट और आय प्रमाण पत्र तैयार करें।",
+          "राष्ट्रीय छात्रवृत्ति पोर्टल पर जाएं।",
+          "नए आवेदक के रूप में पंजीकरण करें।",
+          "आवेदन भरें और दस्तावेज़ अपलोड करें।",
+          "अपने संस्थान से आवेदन सत्यापित करवाएं।",
+          "ऑनलाइन सबमिट करें और अपने आवेदन की स्थिति ट्रैक करें।"
+        ]
+      },
+      "ta": {
+        "scheme_name": "[டெமோ] தேசிய தகுதி-வழி-வருமான உதவித்தொகை (மாதிரி)",
+        "description": "இந்தியா முழுவதும் பொருளாதார ரீதியாக பின்தங்கிய பிரிவுகளைச் சேர்ந்த திறமையான மாணவர்களுக்கான டெமோ மத்திய உதவித்தொகை. மாதிரி தரவு மட்டுமே.",
+        "benefits": ["தகுதியான மாணவர்களுக்கு மாதாந்திர உதவித்தொகை (மாதிரி தொகை)"],
+        "required_documents": ["வருமான சான்றிதழ்", "தகுதி தேர்வு மதிப்பெண் பட்டியல்", "வங்கி பாஸ்புக் (பள்ளி/நிறுவனம் சரிபார்க்கப்பட்டது, பயன்பாட்டால் தேவையில்லை)"],
+        "application_steps": [
+          "உங்கள் மதிப்பெண் பட்டியல் மற்றும் வருமான சான்றிதழைத் தயார் செய்யவும்.",
+          "தேசிய உதவித்தொகை போர்ட்டலுக்குச் செல்லவும்.",
+          "புதிய விண்ணப்பதாரராக பதிவு செய்யவும்.",
+          "விண்ணப்பத்தை நிரப்பி ஆவணங்களைப் பதிவேற்றவும்.",
+          "உங்கள் நிறுவனத்திடம் விண்ணப்பத்தை சரிபார்க்கச் செய்யவும்.",
+          "ஆன்லைனில் சமர்ப்பித்து உங்கள் விண்ணப்ப நிலையைக் கண்காணிக்கவும்."
+        ]
+      }
+    }
+  },
+  {
+    "scheme_id": "demo_agri_001",
+    "scheme_name": "[DEMO] Small Farmer Income Support Scheme",
+    "description": "A demo direct income support scheme for small and marginal farmers owning cultivable land. Sample data only.",
+    "category": "Agriculture",
+    "ministry": "Demo Ministry of Agriculture and Farmers Welfare",
+    "department": "Demo Department of Agriculture",
+    "level": "Central",
+    "applicable_states": ["All States"],
+    "target_beneficiaries": ["farmers", "small and marginal land holders"],
+    "eligibility_rules": {
+      "operator": "AND",
+      "conditions": [
+        {"field": "occupation", "operator": "==", "value": "farmer"},
+        {"field": "land_ownership", "operator": "==", "value": "owned"},
+        {"field": "land_area_acres", "operator": "<=", "value": 5}
+      ]
+    },
+    "exclusions": ["Institutional land holders", "Income tax payers in the last assessment year"],
+    "benefits": ["Direct income support paid in installments (sample amount) to the farmer's bank account"],
+    "required_documents": ["Land ownership record / patta", "Aadhaar-independent identity proof", "Bank account details (collected on official portal, not by this app)"],
+    "application_steps": [
+      "Gather land ownership documents.",
+      "Visit the official scheme portal or nearest Common Service Centre.",
+      "Complete self-registration or approach the local agriculture officer.",
+      "Submit land and identity documents for verification.",
+      "Track approval status on the official portal."
+    ],
+    "official_url": "https://pmkisan.gov.in/",
+    "source_url": "https://pmkisan.gov.in/",
+    "source_name": "DEMO - Sample data for hackathon, not a real source",
+    "last_verified": "2026-01-01",
+    "languages": ["en", "ta", "hi"],
+    "is_demo": true,
+    "translations": {
+      "hi": {
+        "scheme_name": "[डेमो] लघु किसान आय सहायता योजना",
+        "description": "खेती योग्य भूमि के मालिक लघु और सीमांत किसानों के लिए एक डेमो प्रत्यक्ष आय सहायता योजना। केवल नमूना डेटा।",
+        "benefits": ["किसान के बैंक खाते में किश्तों में भुगतान की गई प्रत्यक्ष आय सहायता (नमूना राशि)"],
+        "required_documents": ["भूमि स्वामित्व रिकॉर्ड / पट्टा", "आधार-स्वतंत्र पहचान प्रमाण", "बैंक खाता विवरण (आधिकारिक पोर्टल पर एकत्र किया गया, इस ऐप द्वारा नहीं)"],
+        "application_steps": [
+          "भूमि स्वामित्व दस्तावेज़ इकट्ठा करें।",
+          "आधिकारिक योजना पोर्टल या निकटतम कॉमन सर्विस सेंटर पर जाएं।",
+          "स्व-पंजीकरण पूरा करें या स्थानीय कृषि अधिकारी से संपर्क करें।",
+          "सत्यापन के लिए भूमि और पहचान दस्तावेज़ जमा करें।",
+          "आधिकारिक पोर्टल पर स्वीकृति स्थिति को ट्रैक करें।"
+        ]
+      },
+      "ta": {
+        "scheme_name": "[டெமோ] சிறு விவசாயி வருமான ஆதரவுத் திட்டம்",
+        "description": "பயிரிடத்தக்க நிலத்தை சொந்தமாக வைத்திருக்கும் சிறு மற்றும் குறு விவசாயிகளுக்கான டெமோ நேரடி வருமான ஆதரவுத் திட்டம். மாதிரி தரவு மட்டுமே.",
+        "benefits": ["விவசாயியின் வங்கிக் கணக்கில் தவணைகளாக செலுத்தப்படும் நேரடி வருமான ஆதரவு (மாதிரி தொகை)"],
+        "required_documents": ["நில உரிமை பதிவு / பட்டா", "ஆதார் இல்லாத அடையாள சான்று", "வங்கிக் கணக்கு விவரங்கள் (அதிகாரப்பூர்வ போர்ட்டலில் சேகரிக்கப்படும், இந்த பயன்பாட்டால் அல்ல)"],
+        "application_steps": [
+          "நில உரிமை ஆவணங்களை சேகரிக்கவும்.",
+          "அதிகாரப்பூர்வ திட்ட போர்ட்டல் அல்லது அருகிலுள்ள பொது சேவை மையத்திற்குச் செல்லவும்.",
+          "சுய-பதிவை முடிக்கவும் அல்லது உள்ளூர் வேளாண் அதிகாரியை அணுகவும்.",
+          "சரிபார்ப்புக்காக நில மற்றும் அடையாள ஆவணங்களைச் சமர்ப்பிக்கவும்.",
+          "அதிகாரப்பூர்வ போர்ட்டலில் ஒப்புதல் நிலையைக் கண்காணிக்கவும்."
+        ]
+      }
+    }
+  },
+  {
+    "scheme_id": "demo_agri_002",
+    "scheme_name": "[DEMO] Tenant Farmer Crop Support Grant",
+    "description": "A demo support grant for farmers cultivating leased or family land without formal ownership. Sample data only.",
+    "category": "Agriculture",
+    "ministry": "Demo State Department of Agriculture",
+    "department": "Demo Agriculture Extension Wing",
+    "level": "State",
+    "applicable_states": ["Tamil Nadu", "Kerala", "Karnataka"],
+    "target_beneficiaries": ["tenant farmers", "landless cultivators"],
+    "eligibility_rules": {
+      "operator": "AND",
+      "conditions": [
+        {"field": "occupation", "operator": "==", "value": "farmer"},
+        {"field": "land_ownership", "operator": "IN", "value": ["leased", "family", "unknown"]},
+        {"field": "state", "operator": "IN", "value": ["Tamil Nadu", "Kerala", "Karnataka"]}
+      ]
+    },
+    "exclusions": [],
+    "benefits": ["One-time crop input support grant (sample amount)"],
+    "required_documents": ["Cultivation/tenancy proof or self-declaration", "Village revenue officer certificate"],
+    "application_steps": [
+      "Obtain a cultivation or tenancy declaration from the village revenue officer.",
+      "Visit the district agriculture office or official web portal.",
+      "Submit the application with supporting documents.",
+      "Await field verification by the agriculture extension officer."
+    ],
+    "official_url": "https://www.tn.gov.in/department/agriculture",
+    "source_url": "https://www.tn.gov.in/department/agriculture",
+    "source_name": "DEMO - Sample data for hackathon, not a real source",
+    "last_verified": "2026-01-01",
+    "languages": ["en", "ta"],
+    "is_demo": true,
+    "translations": {
+      "hi": {
+        "scheme_name": "[डेमो] काश्तकार किसान फसल सहायता अनुदान",
+        "description": "औपचारिक स्वामित्व के बिना पट्टे या पारिवारिक भूमि पर खेती करने वाले किसानों के लिए एक डेमो सहायता अनुदान। केवल नमूना डेटा।",
+        "benefits": ["एकमुश्त फसल इनपुट सहायता अनुदान (नमूना राशि)"],
+        "required_documents": ["खेती/काश्तकारी प्रमाण या स्व-घोषणा", "ग्राम राजस्व अधिकारी प्रमाण पत्र"],
+        "application_steps": [
+          "ग्राम राजस्व अधिकारी से खेती या काश्तकारी घोषणा प्राप्त करें।",
+          "जिला कृषि कार्यालय या आधिकारिक वेब पोर्टल पर जाएं।",
+          "सहायक दस्तावेज़ों के साथ आवेदन जमा करें।",
+          "कृषि विस्तार अधिकारी द्वारा फील्ड सत्यापन की प्रतीक्षा करें।"
+        ]
+      },
+      "ta": {
+        "scheme_name": "[டெமோ] குத்தகை விவசாயி பயிர் ஆதரவு மானியம்",
+        "description": "முறையான உரிமையின்றி குத்தகை அல்லது குடும்ப நிலத்தில் பயிரிடும் விவசாயிகளுக்கான டெமோ ஆதரவு மானியம். மாதிரி தரவு மட்டுமே.",
+        "benefits": ["ஒரு முறை பயிர் உள்ளீடு ஆதரவு மானியம் (மாதிரி தொகை)"],
+        "required_documents": ["சாகுபடி/குத்தகை சான்று அல்லது சுய-பிரகடனம்", "கிராம வருவாய் அதிகாரி சான்றிதழ்"],
+        "application_steps": [
+          "கிராம வருவாய் அதிகாரியிடமிருந்து சாகுபடி அல்லது குத்தகை பிரகடனத்தைப் பெறவும்.",
+          "மாவட்ட வேளாண் அலுவலகம் அல்லது அதிகாரப்பூர்வ இணையதளத்திற்குச் செல்லவும்.",
+          "ஆதரவு ஆவணங்களுடன் விண்ணப்பத்தைச் சமர்ப்பிக்கவும்.",
+          "வேளாண் விரிவாக்க அதிகாரியின் கள சரிபார்ப்புக்காக காத்திருக்கவும்."
+        ]
+      }
+    }
+  },
+  {
+    "scheme_id": "demo_women_001",
+    "scheme_name": "[DEMO] Women Entrepreneur Micro-Loan Subsidy",
+    "description": "A demo subsidy scheme supporting women starting small businesses. Sample data only.",
+    "category": "Women",
+    "ministry": "Demo Ministry of Women and Child Development",
+    "department": "Demo Women Entrepreneurship Cell",
+    "level": "Central",
+    "applicable_states": ["All States"],
+    "target_beneficiaries": ["women", "small business owners"],
+    "eligibility_rules": {
+      "operator": "AND",
+      "conditions": [
+        {"field": "gender", "operator": "==", "value": "female"},
+        {"field": "annual_income", "operator": "<=", "value": 300000},
+        {"field": "employment_status", "operator": "IN", "value": ["self-employed", "unemployed", "business owner"]}
+      ]
+    },
+    "exclusions": [],
+    "benefits": ["Interest subsidy on business loans up to a sample cap"],
+    "required_documents": ["Business plan or proposal", "Income certificate", "Identity proof (non-Aadhaar accepted)"],
+    "application_steps": [
+      "Prepare a simple business plan.",
+      "Visit the nearest women entrepreneurship cell or official portal.",
+      "Apply through a partner bank or the online portal.",
+      "Submit required documents for verification.",
+      "Complete loan sanction process with the partner bank."
+    ],
+    "official_url": "https://wcd.nic.in/",
+    "source_url": "https://wcd.nic.in/",
+    "source_name": "DEMO - Sample data for hackathon, not a real source",
+    "last_verified": "2026-01-01",
+    "languages": ["en", "ta", "hi"],
+    "is_demo": true,
+    "translations": {
+      "hi": {
+        "scheme_name": "[डेमो] महिला उद्यमी सूक्ष्म-ऋण सब्सिडी",
+        "description": "छोटे व्यवसाय शुरू करने वाली महिलाओं का समर्थन करने वाली एक डेमो सब्सिडी योजना। केवल नमूना डेटा।",
+        "benefits": ["एक नमूना सीमा तक व्यावसायिक ऋणों पर ब्याज सब्सिडी"],
+        "required_documents": ["व्यवसाय योजना या प्रस्ताव", "आय प्रमाण पत्र", "पहचान प्रमाण (गैर-आधार स्वीकार्य)"],
+        "application_steps": [
+          "एक सरल व्यवसाय योजना तैयार करें।",
+          "निकटतम महिला उद्यमिता सेल या आधिकारिक पोर्टल पर जाएं।",
+          "भागीदार बैंक या ऑनलाइन पोर्टल के माध्यम से आवेदन करें।",
+          "सत्यापन के लिए आवश्यक दस्तावेज़ जमा करें।",
+          "भागीदार बैंक के साथ ऋण स्वीकृति प्रक्रिया पूरी करें।"
+        ]
+      },
+      "ta": {
+        "scheme_name": "[டெமோ] பெண் தொழில்முனைவோர் நுண்கடன் மானியம்",
+        "description": "சிறு வணிகங்களைத் தொடங்கும் பெண்களை ஆதரிக்கும் டெமோ மானிய திட்டம். மாதிரி தரவு மட்டுமே.",
+        "benefits": ["மாதிரி வரம்பு வரை வணிகக் கடன்களுக்கான வட்டி மானியம்"],
+        "required_documents": ["வணிகத் திட்டம் அல்லது முன்மொழிவு", "வருமான சான்றிதழ்", "அடையாள சான்று (ஆதார் அல்லாதவை ஏற்கப்படும்)"],
+        "application_steps": [
+          "ஒரு எளிய வணிகத் திட்டத்தைத் தயாரிக்கவும்.",
+          "அருகிலுள்ள பெண் தொழில்முனைவோர் பிரிவு அல்லது அதிகாரப்பூர்வ போர்ட்டலுக்குச் செல்லவும்.",
+          "பங்குதாரர் வங்கி அல்லது ஆன்லைன் போர்ட்டல் மூலம் விண்ணப்பிக்கவும்.",
+          "சரிபார்ப்புக்காக தேவையான ஆவணங்களைச் சமர்ப்பிக்கவும்.",
+          "பங்குதாரர் வங்கியுடன் கடன் ஒப்புதல் செயல்முறையை முடிக்கவும்."
+        ]
+      }
+    }
+  },
+  {
+    "scheme_id": "demo_senior_001",
+    "scheme_name": "[DEMO] Senior Citizen Monthly Pension Scheme",
+    "description": "A demo monthly pension support scheme for elderly citizens without a regular income source. Sample data only.",
+    "category": "Senior Citizens",
+    "ministry": "Demo Ministry of Social Justice and Empowerment",
+    "department": "Demo Department of Social Welfare",
+    "level": "State",
+    "applicable_states": ["All States"],
+    "target_beneficiaries": ["senior citizens", "elderly with low income"],
+    "eligibility_rules": {
+      "operator": "AND",
+      "conditions": [
+        {"field": "age", "operator": ">=", "value": 60},
+        {"field": "annual_income", "operator": "<=", "value": 100000}
+      ]
+    },
+    "exclusions": ["Recipients of a regular government pension"],
+    "benefits": ["Monthly pension amount (sample) disbursed to the beneficiary"],
+    "required_documents": ["Age proof", "Income certificate", "Address proof (non-Aadhaar accepted)"],
+    "application_steps": [
+      "Collect age and income proof documents.",
+      "Visit the nearest social welfare office or official portal.",
+      "Fill in the pension application form.",
+      "Submit for verification by the local welfare officer.",
+      "Receive pension after approval, typically via money order or bank transfer."
+    ],
+    "official_url": "https://socialjustice.gov.in/",
+    "source_url": "https://socialjustice.gov.in/",
+    "source_name": "DEMO - Sample data for hackathon, not a real source",
+    "last_verified": "2026-01-01",
+    "languages": ["en", "ta", "hi"],
+    "is_demo": true,
+    "translations": {
+      "hi": {
+        "scheme_name": "[डेमो] वरिष्ठ नागरिक मासिक पेंशन योजना",
+        "description": "नियमित आय स्रोत के बिना बुजुर्ग नागरिकों के लिए एक डेमो मासिक पेंशन सहायता योजना। केवल नमूना डेटा।",
+        "benefits": ["लाभार्थी को वितरित मासिक पेंशन राशि (नमूना)"],
+        "required_documents": ["आयु प्रमाण", "आय प्रमाण पत्र", "पता प्रमाण (गैर-आधार स्वीकार्य)"],
+        "application_steps": [
+          "आयु और आय प्रमाण दस्तावेज़ एकत्र करें।",
+          "निकटतम सामाजिक कल्याण कार्यालय या आधिकारिक पोर्टल पर जाएं।",
+          "पेंशन आवेदन फ़ॉर्म भरें।",
+          "स्थानीय कल्याण अधिकारी द्वारा सत्यापन के लिए जमा करें।",
+          "स्वीकृति के बाद पेंशन प्राप्त करें, आमतौर पर मनी ऑर्डर या बैंक हस्तांतरण के माध्यम से।"
+        ]
+      },
+      "ta": {
+        "scheme_name": "[டெமோ] மூத்த குடிமக்கள் மாதாந்திர ஓய்வூதியத் திட்டம்",
+        "description": "வழக்கமான வருமான ஆதாரம் இல்லாத முதியோருக்கான டெமோ மாதாந்திர ஓய்வூதிய ஆதரவுத் திட்டம். மாதிரி தரவு மட்டுமே.",
+        "benefits": ["பயனாளிக்கு வழங்கப்படும் மாதாந்திர ஓய்வூதியத் தொகை (மாதிரி)"],
+        "required_documents": ["வயது சான்று", "வருமான சான்றிதழ்", "முகவரி சான்று (ஆதார் அல்லாதவை ஏற்கப்படும்)"],
+        "application_steps": [
+          "வயது மற்றும் வருமான சான்று ஆவணங்களை சேகரிக்கவும்.",
+          "அருகிலுள்ள சமூக நல அலுவலகம் அல்லது அதிகாரப்பூர்வ போர்ட்டலுக்குச் செல்லவும்.",
+          "ஓய்வூதிய விண்ணப்பப் படிவத்தை நிரப்பவும்.",
+          "உள்ளூர் நல அதிகாரியின் சரிபார்ப்புக்காக சமர்ப்பிக்கவும்.",
+          "ஒப்புதலுக்குப் பிறகு ஓய்வூதியத்தைப் பெறவும், பொதுவாக மணி ஆர்டர் அல்லது வங்கி பரிமாற்றம் மூலம்."
+        ]
+      }
+    }
+  },
+  {
+    "scheme_id": "demo_disability_001",
+    "scheme_name": "[DEMO] Disability Assistance and Aid Scheme",
+    "description": "A demo scheme providing financial assistance and assistive devices to persons with disabilities. Sample data only.",
+    "category": "Disability",
+    "ministry": "Demo Ministry of Social Justice and Empowerment",
+    "department": "Demo Department for Empowerment of Persons with Disabilities",
+    "level": "Central",
+    "applicable_states": ["All States"],
+    "target_beneficiaries": ["persons with disabilities"],
+    "eligibility_rules": {
+      "operator": "AND",
+      "conditions": [
+        {"field": "disability_status", "operator": "==", "value": true},
+        {"field": "annual_income", "operator": "<=", "value": 250000}
+      ]
+    },
+    "exclusions": [],
+    "benefits": ["Financial assistance and subsidized assistive devices (sample)"],
+    "required_documents": ["Disability certificate", "Income certificate", "Address proof"],
+    "application_steps": [
+      "Obtain a valid disability certificate from a government medical board.",
+      "Visit the district disability welfare office or official portal.",
+      "Submit the application with supporting documents.",
+      "Attend a verification camp if required.",
+      "Receive approval and benefit disbursement."
+    ],
+    "official_url": "https://disabilityaffairs.gov.in/",
+    "source_url": "https://disabilityaffairs.gov.in/",
+    "source_name": "DEMO - Sample data for hackathon, not a real source",
+    "last_verified": "2026-01-01",
+    "languages": ["en", "ta", "hi"],
+    "is_demo": true,
+    "translations": {
+      "hi": {
+        "scheme_name": "[डेमो] दिव्यांगता सहायता और सहायता योजना",
+        "description": "दिव्यांग व्यक्तियों को वित्तीय सहायता और सहायक उपकरण प्रदान करने वाली एक डेमो योजना। केवल नमूना डेटा।",
+        "benefits": ["वित्तीय सहायता और सब्सिडी वाले सहायक उपकरण (नमूना)"],
+        "required_documents": ["दिव्यांगता प्रमाण पत्र", "आय प्रमाण पत्र", "पता प्रमाण"],
+        "application_steps": [
+          "सरकारी चिकित्सा बोर्ड से वैध दिव्यांगता प्रमाण पत्र प्राप्त करें।",
+          "जिला दिव्यांगता कल्याण कार्यालय या आधिकारिक पोर्टल पर जाएं।",
+          "सहायक दस्तावेज़ों के साथ आवेदन जमा करें।",
+          "यदि आवश्यक हो तो सत्यापन शिविर में भाग लें।",
+          "स्वीकृति और लाभ वितरण प्राप्त करें।"
+        ]
+      },
+      "ta": {
+        "scheme_name": "[டெமோ] மாற்றுத்திறனாளி உதவி மற்றும் ஆதரவுத் திட்டம்",
+        "description": "மாற்றுத்திறனாளிகளுக்கு நிதி உதவி மற்றும் உதவி சாதனங்களை வழங்கும் டெமோ திட்டம். மாதிரி தரவு மட்டுமே.",
+        "benefits": ["நிதி உதவி மற்றும் மானியம் பெற்ற உதவி சாதனங்கள் (மாதிரி)"],
+        "required_documents": ["மாற்றுத்திறன் சான்றிதழ்", "வருமான சான்றிதழ்", "முகவரி சான்று"],
+        "application_steps": [
+          "அரசு மருத்துவ வாரியத்திடமிருந்து சரியான மாற்றுத்திறன் சான்றிதழைப் பெறவும்.",
+          "மாவட்ட மாற்றுத்திறனாளி நல அலுவலகம் அல்லது அதிகாரப்பூர்வ போர்ட்டலுக்குச் செல்லவும்.",
+          "ஆதரவு ஆவணங்களுடன் விண்ணப்பத்தைச் சமர்ப்பிக்கவும்.",
+          "தேவைப்பட்டால் சரிபார்ப்பு முகாமில் கலந்துகொள்ளவும்.",
+          "ஒப்புதல் மற்றும் நல பலன் வழங்கலைப் பெறவும்."
+        ]
+      }
+    }
+  },
+  {
+    "scheme_id": "demo_employ_001",
+    "scheme_name": "[DEMO] Unemployed Youth Skill Training Stipend",
+    "description": "A demo scheme offering a stipend to unemployed youth enrolled in government-recognized skill training. Sample data only.",
+    "category": "Employment",
+    "ministry": "Demo Ministry of Skill Development",
+    "department": "Demo Directorate of Employment and Training",
+    "level": "State",
+    "applicable_states": ["All States"],
+    "target_beneficiaries": ["unemployed youth"],
+    "eligibility_rules": {
+      "operator": "AND",
+      "conditions": [
+        {"field": "age", "operator": ">=", "value": 18},
+        {"field": "age", "operator": "<=", "value": 35},
+        {"field": "employment_status", "operator": "==", "value": "unemployed"}
+      ]
+    },
+    "exclusions": ["Currently enrolled full-time students"],
+    "benefits": ["Monthly training stipend (sample amount) during the training period"],
+    "required_documents": ["Age proof", "Educational qualification certificate", "Unemployment self-declaration"],
+    "application_steps": [
+      "Register at the nearest employment exchange or official skill portal.",
+      "Choose an approved training course.",
+      "Submit required documents for enrollment.",
+      "Attend training and receive stipend as per attendance."
+    ],
+    "official_url": "https://www.nsdcindia.org/",
+    "source_url": "https://www.nsdcindia.org/",
+    "source_name": "DEMO - Sample data for hackathon, not a real source",
+    "last_verified": "2026-01-01",
+    "languages": ["en", "ta", "hi"],
+    "is_demo": true,
+    "translations": {
+      "hi": {
+        "scheme_name": "[डेमो] बेरोज़गार युवा कौशल प्रशिक्षण वृत्तिका",
+        "description": "सरकार-मान्यता प्राप्त कौशल प्रशिक्षण में नामांकित बेरोज़गार युवाओं को वृत्तिका प्रदान करने वाली एक डेमो योजना। केवल नमूना डेटा।",
+        "benefits": ["प्रशिक्षण अवधि के दौरान मासिक प्रशिक्षण वृत्तिका (नमूना राशि)"],
+        "required_documents": ["आयु प्रमाण", "शैक्षणिक योग्यता प्रमाण पत्र", "बेरोज़गारी स्व-घोषणा"],
+        "application_steps": [
+          "निकटतम रोजगार कार्यालय या आधिकारिक कौशल पोर्टल पर पंजीकरण करें।",
+          "एक अनुमोदित प्रशिक्षण पाठ्यक्रम चुनें।",
+          "नामांकन के लिए आवश्यक दस्तावेज़ जमा करें।",
+          "प्रशिक्षण में भाग लें और उपस्थिति के अनुसार वृत्तिका प्राप्त करें।"
+        ]
+      },
+      "ta": {
+        "scheme_name": "[டெமோ] வேலையற்ற இளைஞர் திறன் பயிற்சி உதவித்தொகை",
+        "description": "அரசு அங்கீகரிக்கப்பட்ட திறன் பயிற்சியில் சேர்ந்த வேலையற்ற இளைஞர்களுக்கு உதவித்தொகை வழங்கும் டெமோ திட்டம். மாதிரி தரவு மட்டுமே.",
+        "benefits": ["பயிற்சி காலத்தில் மாதாந்திர பயிற்சி உதவித்தொகை (மாதிரி தொகை)"],
+        "required_documents": ["வயது சான்று", "கல்வித் தகுதி சான்றிதழ்", "வேலையின்மை சுய-பிரகடனம்"],
+        "application_steps": [
+          "அருகிலுள்ள வேலைவாய்ப்பு அலுவலகம் அல்லது அதிகாரப்பூர்வ திறன் போர்ட்டலில் பதிவு செய்யவும்.",
+          "அங்கீகரிக்கப்பட்ட பயிற்சி படிப்பைத் தேர்ந்தெடுக்கவும்.",
+          "சேர்க்கைக்கு தேவையான ஆவணங்களைச் சமர்ப்பிக்கவும்.",
+          "பயிற்சியில் கலந்துகொண்டு வருகையின்படி உதவித்தொகையைப் பெறவும்."
+        ]
+      }
+    }
+  },
+  {
+    "scheme_id": "demo_health_001",
+    "scheme_name": "[DEMO] Family Health Coverage Scheme",
+    "description": "A demo health insurance coverage scheme for low-income families. Sample data only.",
+    "category": "Healthcare",
+    "ministry": "Demo Ministry of Health and Family Welfare",
+    "department": "Demo National Health Authority",
+    "level": "Central",
+    "applicable_states": ["All States"],
+    "target_beneficiaries": ["low-income families"],
+    "eligibility_rules": {
+      "operator": "AND",
+      "conditions": [
+        {"field": "annual_income", "operator": "<=", "value": 250000},
+        {"field": "family_size", "operator": ">=", "value": 1}
+      ]
+    },
+    "exclusions": ["Families already covered by an employer-provided health scheme with equal benefits"],
+    "benefits": ["Cashless hospitalization coverage up to a sample annual limit per family"],
+    "required_documents": ["Income certificate", "Family ration card or family composition proof", "Address proof"],
+    "application_steps": [
+      "Check eligibility on the official health scheme portal.",
+      "Visit the nearest empanelled hospital or Common Service Centre.",
+      "Complete registration with supporting documents.",
+      "Receive a health coverage card upon approval."
+    ],
+    "official_url": "https://pmjay.gov.in/",
+    "source_url": "https://pmjay.gov.in/",
+    "source_name": "DEMO - Sample data for hackathon, not a real source",
+    "last_verified": "2026-01-01",
+    "languages": ["en", "ta", "hi"],
+    "is_demo": true,
+    "translations": {
+      "hi": {
+        "scheme_name": "[डेमो] पारिवारिक स्वास्थ्य कवरेज योजना",
+        "description": "कम आय वाले परिवारों के लिए एक डेमो स्वास्थ्य बीमा कवरेज योजना। केवल नमूना डेटा।",
+        "benefits": ["प्रति परिवार एक नमूना वार्षिक सीमा तक कैशलेस अस्पताल में भर्ती कवरेज"],
+        "required_documents": ["आय प्रमाण पत्र", "परिवार राशन कार्ड या परिवार संरचना प्रमाण", "पता प्रमाण"],
+        "application_steps": [
+          "आधिकारिक स्वास्थ्य योजना पोर्टल पर पात्रता जांचें।",
+          "निकटतम सूचीबद्ध अस्पताल या कॉमन सर्विस सेंटर पर जाएं।",
+          "सहायक दस्तावेज़ों के साथ पंजीकरण पूरा करें।",
+          "स्वीकृति के बाद स्वास्थ्य कवरेज कार्ड प्राप्त करें।"
+        ]
+      },
+      "ta": {
+        "scheme_name": "[டெமோ] குடும்ப சுகாதார பாதுகாப்புத் திட்டம்",
+        "description": "குறைந்த வருமானம் கொண்ட குடும்பங்களுக்கான டெமோ சுகாதார காப்பீட்டுத் திட்டம். மாதிரி தரவு மட்டுமே.",
+        "benefits": ["ஒரு குடும்பத்திற்கு மாதிரி ஆண்டு வரம்பு வரை பணமில்லா மருத்துவமனை சேர்க்கை பாதுகாப்பு"],
+        "required_documents": ["வருமான சான்றிதழ்", "குடும்ப ரேஷன் அட்டை அல்லது குடும்ப கலவை சான்று", "முகவரி சான்று"],
+        "application_steps": [
+          "அதிகாரப்பூர்வ சுகாதாரத் திட்ட போர்ட்டலில் தகுதியைச் சரிபார்க்கவும்.",
+          "அருகிலுள்ள பட்டியலிடப்பட்ட மருத்துவமனை அல்லது பொது சேவை மையத்திற்குச் செல்லவும்.",
+          "ஆதரவு ஆவணங்களுடன் பதிவை முடிக்கவும்.",
+          "ஒப்புதலுக்குப் பிறகு சுகாதார பாதுகாப்பு அட்டையைப் பெறவும்."
+        ]
+      }
+    }
+  },
+  {
+    "scheme_id": "demo_housing_001",
+    "scheme_name": "[DEMO] Rural Housing Assistance Scheme",
+    "description": "A demo scheme providing financial assistance for house construction to rural households without a pucca house. Sample data only.",
+    "category": "Housing",
+    "ministry": "Demo Ministry of Rural Development",
+    "department": "Demo Rural Housing Mission",
+    "level": "Central",
+    "applicable_states": ["All States"],
+    "target_beneficiaries": ["rural households", "houseless families"],
+    "eligibility_rules": {
+      "operator": "AND",
+      "conditions": [
+        {"field": "residence_type", "operator": "==", "value": "rural"},
+        {"field": "annual_income", "operator": "<=", "value": 180000}
+      ]
+    },
+    "exclusions": ["Households owning a pucca (permanent) house"],
+    "benefits": ["Financial assistance (sample amount) for construction of a pucca house"],
+    "required_documents": ["Income certificate", "Land ownership or homestead proof", "Existing house status certificate from local body"],
+    "application_steps": [
+      "Check name in the beneficiary list at the gram panchayat office or online.",
+      "Submit required documents at the panchayat/municipal office.",
+      "Open a bank account for direct benefit transfer (not required by this app).",
+      "Construction proceeds in stages with fund release tied to progress."
+    ],
+    "official_url": "https://pmayg.nic.in/",
+    "source_url": "https://pmayg.nic.in/",
+    "source_name": "DEMO - Sample data for hackathon, not a real source",
+    "last_verified": "2026-01-01",
+    "languages": ["en", "ta", "hi"],
+    "is_demo": true,
+    "translations": {
+      "hi": {
+        "scheme_name": "[डेमो] ग्रामीण आवास सहायता योजना",
+        "description": "पक्के घर के बिना ग्रामीण परिवारों को घर निर्माण के लिए वित्तीय सहायता प्रदान करने वाली एक डेमो योजना। केवल नमूना डेटा।",
+        "benefits": ["पक्के घर के निर्माण के लिए वित्तीय सहायता (नमूना राशि)"],
+        "required_documents": ["आय प्रमाण पत्र", "भूमि स्वामित्व या घर स्थल प्रमाण", "स्थानीय निकाय से मौजूदा घर की स्थिति प्रमाण पत्र"],
+        "application_steps": [
+          "ग्राम पंचायत कार्यालय में या ऑनलाइन लाभार्थी सूची में नाम जांचें।",
+          "पंचायत/नगरपालिका कार्यालय में आवश्यक दस्तावेज़ जमा करें।",
+          "प्रत्यक्ष लाभ हस्तांतरण के लिए बैंक खाता खोलें (इस ऐप द्वारा आवश्यक नहीं)।",
+          "निर्माण चरणों में प्रगति से जुड़े धन जारी होने के साथ आगे बढ़ता है।"
+        ]
+      },
+      "ta": {
+        "scheme_name": "[டெமோ] கிராமப்புற வீட்டு உதவித் திட்டம்",
+        "description": "நிரந்தர வீடு இல்லாத கிராமப்புற குடும்பங்களுக்கு வீடு கட்ட நிதி உதவி வழங்கும் டெமோ திட்டம். மாதிரி தரவு மட்டுமே.",
+        "benefits": ["நிரந்தர வீடு கட்டுவதற்கான நிதி உதவி (மாதிரி தொகை)"],
+        "required_documents": ["வருமான சான்றிதழ்", "நில உரிமை அல்லது வீட்டு மனை சான்று", "உள்ளூர் அமைப்பிலிருந்து தற்போதைய வீட்டு நிலை சான்றிதழ்"],
+        "application_steps": [
+          "கிராம பஞ்சாயத்து அலுவலகத்தில் அல்லது ஆன்லைனில் பயனாளர் பட்டியலில் பெயரைச் சரிபார்க்கவும்.",
+          "பஞ்சாயத்து/நகராட்சி அலுவலகத்தில் தேவையான ஆவணங்களைச் சமர்ப்பிக்கவும்.",
+          "நேரடி நல பலன் பரிமாற்றத்திற்கு வங்கிக் கணக்கைத் திறக்கவும் (இந்த பயன்பாட்டால் தேவையில்லை).",
+          "முன்னேற்றத்துடன் இணைந்த நிதி வெளியீட்டுடன் கட்டுமானம் நிலைகளில் தொடரும்."
+        ]
+      }
+    }
+  },
+  {
+    "scheme_id": "demo_finance_001",
+    "scheme_name": "[DEMO] Small Business Working Capital Subsidy",
+    "description": "A demo scheme offering subsidized working capital for micro and small business owners. Sample data only.",
+    "category": "Financial Assistance",
+    "ministry": "Demo Ministry of Micro, Small and Medium Enterprises",
+    "department": "Demo MSME Development Institute",
+    "level": "Central",
+    "applicable_states": ["All States"],
+    "target_beneficiaries": ["small business owners", "micro entrepreneurs"],
+    "eligibility_rules": {
+      "operator": "AND",
+      "conditions": [
+        {"field": "employment_status", "operator": "==", "value": "business owner"},
+        {"field": "annual_income", "operator": "<=", "value": 500000}
+      ]
+    },
+    "exclusions": ["Large enterprises above the MSME investment threshold"],
+    "benefits": ["Subsidized working capital loan with reduced interest (sample terms)"],
+    "required_documents": ["Business registration proof", "Income/turnover certificate", "Identity proof"],
+    "application_steps": [
+      "Register your business under the applicable MSME category.",
+      "Approach a partner bank or the official MSME portal.",
+      "Submit business and income documents.",
+      "Complete loan sanction and disbursement process."
+    ],
+    "official_url": "https://msme.gov.in/",
+    "source_url": "https://msme.gov.in/",
+    "source_name": "DEMO - Sample data for hackathon, not a real source",
+    "last_verified": "2026-01-01",
+    "languages": ["en", "ta", "hi"],
+    "is_demo": true,
+    "translations": {
+      "hi": {
+        "scheme_name": "[डेमो] लघु व्यवसाय कार्यशील पूंजी सब्सिडी",
+        "description": "सूक्ष्म और लघु व्यवसाय मालिकों के लिए सब्सिडी युक्त कार्यशील पूंजी प्रदान करने वाली एक डेमो योजना। केवल नमूना डेटा।",
+        "benefits": ["कम ब्याज के साथ सब्सिडी युक्त कार्यशील पूंजी ऋण (नमूना शर्तें)"],
+        "required_documents": ["व्यवसाय पंजीकरण प्रमाण", "आय/कारोबार प्रमाण पत्र", "पहचान प्रमाण"],
+        "application_steps": [
+          "लागू MSME श्रेणी के तहत अपना व्यवसाय पंजीकृत करें।",
+          "भागीदार बैंक या आधिकारिक MSME पोर्टल से संपर्क करें।",
+          "व्यवसाय और आय दस्तावेज़ जमा करें।",
+          "ऋण स्वीकृति और वितरण प्रक्रिया पूरी करें।"
+        ]
+      },
+      "ta": {
+        "scheme_name": "[டெமோ] சிறு வணிக இயக்க மூலதன மானியம்",
+        "description": "நுண் மற்றும் சிறு வணிக உரிமையாளர்களுக்கு மானியம் பெற்ற இயக்க மூலதனத்தை வழங்கும் டெமோ திட்டம். மாதிரி தரவு மட்டுமே.",
+        "benefits": ["குறைந்த வட்டியுடன் மானியம் பெற்ற இயக்க மூலதனக் கடன் (மாதிரி விதிமுறைகள்)"],
+        "required_documents": ["வணிக பதிவு சான்று", "வருமான/வருவாய் சான்றிதழ்", "அடையாள சான்று"],
+        "application_steps": [
+          "பொருந்தக்கூடிய MSME வகையின் கீழ் உங்கள் வணிகத்தைப் பதிவு செய்யவும்.",
+          "பங்குதாரர் வங்கி அல்லது அதிகாரப்பூர்வ MSME போர்ட்டலை அணுகவும்.",
+          "வணிக மற்றும் வருமான ஆவணங்களைச் சமர்ப்பிக்கவும்.",
+          "கடன் ஒப்புதல் மற்றும் வழங்கல் செயல்முறையை முடிக்கவும்."
+        ]
+      }
+    }
+  },
+  {
+    "scheme_id": "demo_edu_003",
+    "scheme_name": "[DEMO] Girl Child Higher Education Incentive",
+    "description": "A demo incentive scheme encouraging higher education for girls from economically weaker families. Sample data only.",
+    "category": "Education",
+    "ministry": "Demo Ministry of Education",
+    "department": "Demo Girl Child Education Mission",
+    "level": "State",
+    "applicable_states": ["Tamil Nadu", "Karnataka", "Andhra Pradesh"],
+    "target_beneficiaries": ["girl students"],
+    "eligibility_rules": {
+      "operator": "AND",
+      "conditions": [
+        {"field": "student", "operator": "==", "value": true},
+        {"field": "gender", "operator": "==", "value": "female"},
+        {"field": "annual_income", "operator": "<=", "value": 250000},
+        {"field": "state", "operator": "IN", "value": ["Tamil Nadu", "Karnataka", "Andhra Pradesh"]}
+      ]
+    },
+    "exclusions": [],
+    "benefits": ["One-time incentive amount (sample) on enrollment in higher education"],
+    "required_documents": ["Income certificate", "Admission proof / bonafide certificate", "Birth certificate or age proof"],
+    "application_steps": [
+      "Secure admission in a recognized higher education institution.",
+      "Visit the official state education portal.",
+      "Fill the incentive application form.",
+      "Upload required documents and submit."
+    ],
+    "official_url": "https://www.tn.gov.in/scheme/data_view/DEMO2",
+    "source_url": "https://www.tn.gov.in/scheme/data_view/DEMO2",
+    "source_name": "DEMO - Sample data for hackathon, not a real source",
+    "last_verified": "2026-01-01",
+    "languages": ["en", "ta"],
+    "is_demo": true,
+    "translations": {
+      "hi": {
+        "scheme_name": "[डेमो] बालिका उच्च शिक्षा प्रोत्साहन",
+        "description": "आर्थिक रूप से कमजोर परिवारों की लड़कियों के लिए उच्च शिक्षा को प्रोत्साहित करने वाली एक डेमो प्रोत्साहन योजना। केवल नमूना डेटा।",
+        "benefits": ["उच्च शिक्षा में नामांकन पर एकमुश्त प्रोत्साहन राशि (नमूना)"],
+        "required_documents": ["आय प्रमाण पत्र", "प्रवेश प्रमाण / बोनाफाइड प्रमाण पत्र", "जन्म प्रमाण पत्र या आयु प्रमाण"],
+        "application_steps": [
+          "किसी मान्यता प्राप्त उच्च शिक्षा संस्थान में प्रवेश सुरक्षित करें।",
+          "आधिकारिक राज्य शिक्षा पोर्टल पर जाएं।",
+          "प्रोत्साहन आवेदन फ़ॉर्म भरें।",
+          "आवश्यक दस्तावेज़ अपलोड करें और सबमिट करें।"
+        ]
+      },
+      "ta": {
+        "scheme_name": "[டெமோ] பெண் குழந்தை உயர்கல்வி ஊக்கத்தொகை",
+        "description": "பொருளாதார ரீதியாக பின்தங்கிய குடும்பங்களைச் சேர்ந்த பெண்களின் உயர்கல்வியை ஊக்குவிக்கும் டெமோ ஊக்கத்தொகைத் திட்டம். மாதிரி தரவு மட்டுமே.",
+        "benefits": ["உயர்கல்வியில் சேர்க்கையின் போது ஒரு முறை ஊக்கத்தொகை (மாதிரி)"],
+        "required_documents": ["வருமான சான்றிதழ்", "சேர்க்கை சான்று / நம்பகத்தன்மை சான்றிதழ்", "பிறப்பு சான்றிதழ் அல்லது வயது சான்று"],
+        "application_steps": [
+          "அங்கீகரிக்கப்பட்ட உயர்கல்வி நிறுவனத்தில் சேர்க்கையைப் பெறவும்.",
+          "அதிகாரப்பூர்வ மாநில கல்வி போர்ட்டலுக்குச் செல்லவும்.",
+          "ஊக்கத்தொகை விண்ணப்பப் படிவத்தை நிரப்பவும்.",
+          "தேவையான ஆவணங்களைப் பதிவேற்றி சமர்ப்பிக்கவும்."
+        ]
+      }
+    }
+  },
+  {
+    "scheme_id": "demo_agri_003",
+    "scheme_name": "[DEMO] Farm Mechanization Subsidy",
+    "description": "A demo subsidy for farmers purchasing approved farm equipment. Sample data only.",
+    "category": "Agriculture",
+    "ministry": "Demo Ministry of Agriculture and Farmers Welfare",
+    "department": "Demo Farm Mechanization Cell",
+    "level": "Central",
+    "applicable_states": ["All States"],
+    "target_beneficiaries": ["farmers"],
+    "eligibility_rules": {
+      "operator": "AND",
+      "conditions": [
+        {"field": "occupation", "operator": "==", "value": "farmer"},
+        {"field": "land_area_acres", "operator": ">=", "value": 1}
+      ]
+    },
+    "exclusions": [],
+    "benefits": ["Subsidy of up to a sample percentage on approved farm equipment purchases"],
+    "required_documents": ["Land record", "Equipment purchase quotation", "Bank account (collected on official portal)"],
+    "application_steps": [
+      "Select equipment from the approved dealer list.",
+      "Apply through the official farm mechanization portal.",
+      "Submit land and purchase documents.",
+      "Receive subsidy after verification and purchase."
+    ],
+    "official_url": "https://agrimachinery.nic.in/",
+    "source_url": "https://agrimachinery.nic.in/",
+    "source_name": "DEMO - Sample data for hackathon, not a real source",
+    "last_verified": "2026-01-01",
+    "languages": ["en", "ta", "hi"],
+    "is_demo": true,
+    "translations": {
+      "hi": {
+        "scheme_name": "[डेमो] कृषि यंत्रीकरण सब्सिडी",
+        "description": "अनुमोदित कृषि उपकरण खरीदने वाले किसानों के लिए एक डेमो सब्सिडी। केवल नमूना डेटा।",
+        "benefits": ["अनुमोदित कृषि उपकरण खरीद पर एक नमूना प्रतिशत तक सब्सिडी"],
+        "required_documents": ["भूमि रिकॉर्ड", "उपकरण खरीद कोटेशन", "बैंक खाता (आधिकारिक पोर्टल पर एकत्र किया गया)"],
+        "application_steps": [
+          "अनुमोदित डीलर सूची से उपकरण चुनें।",
+          "आधिकारिक कृषि यंत्रीकरण पोर्टल के माध्यम से आवेदन करें।",
+          "भूमि और खरीद दस्तावेज़ जमा करें।",
+          "सत्यापन और खरीद के बाद सब्सिडी प्राप्त करें।"
+        ]
+      },
+      "ta": {
+        "scheme_name": "[டெமோ] பண்ணை இயந்திரமயமாக்கல் மானியம்",
+        "description": "அங்கீகரிக்கப்பட்ட பண்ணை உபகரணங்களை வாங்கும் விவசாயிகளுக்கான டெமோ மானியம். மாதிரி தரவு மட்டுமே.",
+        "benefits": ["அங்கீகரிக்கப்பட்ட பண்ணை உபகரண கொள்முதலுக்கு மாதிரி சதவீதம் வரை மானியம்"],
+        "required_documents": ["நில பதிவு", "உபகரண கொள்முதல் மேற்கோள்", "வங்கிக் கணக்கு (அதிகாரப்பூர்வ போர்ட்டலில் சேகரிக்கப்படும்)"],
+        "application_steps": [
+          "அங்கீகரிக்கப்பட்ட விற்பனையாளர் பட்டியலிலிருந்து உபகரணத்தைத் தேர்ந்தெடுக்கவும்.",
+          "அதிகாரப்பூர்வ பண்ணை இயந்திரமயமாக்கல் போர்ட்டல் மூலம் விண்ணப்பிக்கவும்.",
+          "நில மற்றும் கொள்முதல் ஆவணங்களைச் சமர்ப்பிக்கவும்.",
+          "சரிபார்ப்பு மற்றும் கொள்முதலுக்குப் பிறகு மானியத்தைப் பெறவும்."
+        ]
+      }
+    }
+  },
+  {
+    "scheme_id": "demo_employ_002",
+    "scheme_name": "[DEMO] Informal Worker Social Security Enrollment",
+    "description": "A demo social security enrollment scheme for informal sector and gig workers. Sample data only.",
+    "category": "Employment",
+    "ministry": "Demo Ministry of Labour and Employment",
+    "department": "Demo Informal Sector Welfare Board",
+    "level": "Central",
+    "applicable_states": ["All States"],
+    "target_beneficiaries": ["informal workers", "gig workers"],
+    "eligibility_rules": {
+      "operator": "AND",
+      "conditions": [
+        {"field": "employment_status", "operator": "IN", "value": ["informal worker", "self-employed", "gig worker"]},
+        {"field": "age", "operator": ">=", "value": 18},
+        {"field": "age", "operator": "<=", "value": 59}
+      ]
+    },
+    "exclusions": [],
+    "benefits": ["Access to accident insurance and pension contribution matching (sample terms)"],
+    "required_documents": ["Self-declaration of occupation", "Age proof", "Address proof"],
+    "application_steps": [
+      "Visit the nearest Common Service Centre or official portal.",
+      "Register with basic occupation and identity details.",
+      "Choose applicable contribution plan if relevant.",
+      "Receive enrollment confirmation."
+    ],
+    "official_url": "https://eshram.gov.in/",
+    "source_url": "https://eshram.gov.in/",
+    "source_name": "DEMO - Sample data for hackathon, not a real source",
+    "last_verified": "2026-01-01",
+    "languages": ["en", "ta", "hi"],
+    "is_demo": true,
+    "translations": {
+      "hi": {
+        "scheme_name": "[डेमो] असंगठित कामगार सामाजिक सुरक्षा नामांकन",
+        "description": "असंगठित क्षेत्र और गिग श्रमिकों के लिए एक डेमो सामाजिक सुरक्षा नामांकन योजना। केवल नमूना डेटा।",
+        "benefits": ["दुर्घटना बीमा और पेंशन योगदान मिलान तक पहुंच (नमूना शर्तें)"],
+        "required_documents": ["व्यवसाय की स्व-घोषणा", "आयु प्रमाण", "पता प्रमाण"],
+        "application_steps": [
+          "निकटतम कॉमन सर्विस सेंटर या आधिकारिक पोर्टल पर जाएं।",
+          "बुनियादी व्यवसाय और पहचान विवरण के साथ पंजीकरण करें।",
+          "प्रासंगिक होने पर लागू योगदान योजना चुनें।",
+          "नामांकन पुष्टि प्राप्त करें।"
+        ]
+      },
+      "ta": {
+        "scheme_name": "[டெமோ] முறைசாரா தொழிலாளர் சமூகப் பாதுகாப்பு பதிவு",
+        "description": "முறைசாரா துறை மற்றும் கிக் தொழிலாளர்களுக்கான டெமோ சமூகப் பாதுகாப்பு பதிவுத் திட்டம். மாதிரி தரவு மட்டுமே.",
+        "benefits": ["விபத்து காப்பீடு மற்றும் ஓய்வூதிய பங்களிப்பு பொருத்தத்திற்கான அணுகல் (மாதிரி விதிமுறைகள்)"],
+        "required_documents": ["தொழில் சுய-பிரகடனம்", "வயது சான்று", "முகவரி சான்று"],
+        "application_steps": [
+          "அருகிலுள்ள பொது சேவை மையம் அல்லது அதிகாரப்பூர்வ போர்ட்டலுக்குச் செல்லவும்.",
+          "அடிப்படை தொழில் மற்றும் அடையாள விவரங்களுடன் பதிவு செய்யவும்.",
+          "பொருந்தினால் பொருந்தக்கூடிய பங்களிப்பு திட்டத்தைத் தேர்ந்தெடுக்கவும்.",
+          "பதிவு உறுதிப்படுத்தலைப் பெறவும்."
+        ]
+      }
+    }
+  }
+]

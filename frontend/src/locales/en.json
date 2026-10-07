@@ -1,0 +1,318 @@
+{
+  "common": {
+    "appName": "Benefits Navigator",
+    "nav": {
+      "home": "Home",
+      "chat": "Ask AI",
+      "profile": "My Profile",
+      "benefits": "My Benefits"
+    },
+    "theme": {
+      "light": "Light theme — tap for dark",
+      "dark": "Dark theme — tap for system default",
+      "system": "System theme — tap for light"
+    },
+    "toggleContrast": "Toggle high contrast",
+    "toggleMenu": "Menu",
+    "toggleLargeText": "Toggle large text",
+    "selectLanguage": "Select language",
+    "category": {
+      "Education": "Education",
+      "Agriculture": "Agriculture",
+      "Financial Assistance": "Financial Assistance",
+      "Housing": "Housing",
+      "Employment": "Employment",
+      "Women": "Women",
+      "Disability": "Disability",
+      "Senior Citizens": "Senior Citizens",
+      "Healthcare": "Healthcare",
+      "Business": "Business",
+      "Entrepreneurship": "Entrepreneurship"
+    },
+    "level": {
+      "Central": "Central",
+      "State": "State"
+    },
+    "genericError": "Something went wrong. Please try again."
+  },
+
+  "help": {
+    "open": "Help and tutorial",
+    "title": "Help",
+    "close": "Close",
+    "startTour": "🚶 Take a guided tour",
+    "askQuestion": "💬 Ask how to use this app",
+    "step": "Step {{current}} of {{total}}",
+    "back": "Back",
+    "next": "Next",
+    "done": "Done",
+    "askPrompt": "Ask me how to use any part of this app — for example \"how do I save a scheme?\"",
+    "askPlaceholder": "Ask a question about using the app..."
+  },
+
+  "readAloud": {
+    "start": "Read this page aloud",
+    "stop": "Stop reading",
+    "close": "Close"
+  },
+
+  "accessibility": {
+    "simpleMode": "Simple mode",
+    "simpleModeDesc": "Fewer options, bigger buttons, less text — good for a first visit.",
+    "signAnimation": "Hand-sign animation with audio",
+    "signAnimationDesc": "Shows a simple animated hand alongside captions while a page is read aloud, as a visual cue for deaf and hard-of-hearing users. Not full sign-language translation.",
+    "signInput": "Experimental hand-sign input",
+    "signInputDesc": "Recognizes a small set of hand signs (yes / no) from your camera to answer simple questions. Experimental — accuracy is limited, and it never replaces typing or speaking.",
+    "signInputCameraTitle": "Show me a sign",
+    "signInputThumbsUp": "👍 Thumbs up = Yes",
+    "signInputOpenPalm": "✋ Open palm = No",
+    "signInputDetected": "Detected: {{gesture}}",
+    "signInputNone": "No hand detected yet",
+    "signInputUse": "Use this answer",
+    "signInputCancel": "Cancel",
+    "signInputCameraError": "Could not access the camera. You can still answer by tapping.",
+    "signInputLoadingModel": "Loading hand-sign detector…",
+    "gesture": {
+      "thumbs_up": "👍 Thumbs up (Yes)",
+      "open_palm": "✋ Open palm (No)",
+      "none": "—"
+    }
+  },
+
+  "home": {
+    "headline": "Find Government Benefits You May Be Eligible For",
+    "subheadline": "Tell us about your situation. We'll help you discover relevant government schemes, understand the eligibility requirements, prepare your documents, and find the official application process.",
+    "findMyBenefits": "📋 Find My Benefits",
+    "askAQuestion": "💬 Ask a Question",
+    "speakToAi": "🎤 Speak to AI",
+    "browseByCategory": "Browse by category",
+    "whyTrust": "Why trust this tool?",
+    "trust1": "Every scheme links to its official government source.",
+    "trust2": "Eligibility is checked with transparent, explainable rules — never a guess.",
+    "trust3": "We never ask for Aadhaar, passwords, OTPs, or bank details.",
+    "trust4": "Final eligibility is always determined by the relevant government authority."
+  },
+
+  "chat": {
+    "welcome": "Hi! Tell me a bit about your situation — for example your age, state, occupation, and income — and I'll help you find relevant government schemes.",
+    "placeholder": "Type your question... e.g. I am a 20 year old student from Tamil Nadu",
+    "typeYourQuestion": "Type your question",
+    "thinking": "Thinking…",
+    "send": "Send",
+    "noRecommendationsTitle": "No recommendations yet",
+    "noRecommendationsDesc": "Describe your situation in the chat — your age, state, occupation, and income help us find relevant schemes."
+  },
+
+  "voice": {
+    "listening": "Listening…",
+    "notSupported": "Voice not supported — please type",
+    "startInput": "Start voice input",
+    "stopInput": "Stop voice input",
+    "speakPrompt": "Speak your question",
+    "notSupportedTitle": "Voice input not supported in this browser",
+    "errorNotAllowed": "Microphone access was blocked. Allow microphone access and try again.",
+    "errorNoSpeech": "We didn't hear anything. Try speaking closer to the microphone.",
+    "errorNoMic": "No microphone was found. Please type instead.",
+    "errorLanguageNotSupported": "This language isn't supported for voice input in your browser yet.",
+    "errorNetwork": "A network error interrupted voice input. Please try again.",
+    "errorGeneric": "Voice input error. Please try again or type instead.",
+    "errorDidntCatch": "We didn't catch that. Please try again or type instead.",
+    "errorNotSupportedBrowser": "Voice input is not supported in this browser. Please type instead.",
+    "errorInsecureContext": "Voice input needs a secure (https) connection. Please type instead.",
+    "errorCouldNotStart": "Could not start voice input. Please try again."
+  },
+
+  "scheme": {
+    "whyOrMissing": "Why this scheme? / What am I missing?",
+    "hide": "Hide",
+    "documentsNeeded": "Documents needed",
+    "hideDocuments": "Hide documents",
+    "viewDetails": "View Details",
+    "whyRecommended": "Why this was recommended",
+    "noConfirmedMatches": "No confirmed matches yet — more information is needed.",
+    "whatMissing": "What you're missing",
+    "needField": "We need your {{field}} to fully determine eligibility.",
+    "conditionsNotMet": "Conditions not met",
+    "requiredDocuments": "Required documents",
+    "noDocumentsOnRecord": "No document requirements on record for this scheme.",
+    "possiblyRequired": "(possibly required — confirm eligibility first)",
+    "howToApply": "How to apply",
+    "noStepsOnRecord": "Application steps are not on record. Please check the official source.",
+    "source": "Source",
+    "lastVerified": "Last verified",
+    "demoDisclaimer": "This is a SAMPLE/DEMO scheme for demonstration purposes only. It does not represent a real government scheme — please do not apply based on this data.",
+    "openOfficialSource": "Open official government source ↗",
+    "benefits": "Benefits",
+    "ministryDepartment": "Ministry / Department",
+    "applicableStates": "Applicable states",
+    "allStates": "All States"
+  },
+
+  "eligibility": {
+    "likely_eligible": "Likely Eligible",
+    "possibly_eligible": "Possibly Eligible",
+    "missing_information": "More Information Needed",
+    "not_matching": "Doesn't Currently Match",
+    "unable_to_determine": "Unable to Determine"
+  },
+
+  "profilePage": {
+    "heading": "Tell us about yourself",
+    "subtext": "This helps us match you with relevant benefits. You can skip fields you're unsure of.",
+    "saveError": "Could not save your profile. Please try again."
+  },
+
+  "profileForm": {
+    "intro": "We only ask for what's needed to match you with benefits. No Aadhaar, bank details, or passwords are ever required.",
+    "fillWithAi": "✨ Fill with AI",
+    "fillWithAiPrompt": "Describe yourself in a sentence or two — typed or spoken — and we'll fill in what we can below for you to review.",
+    "fillWithAiPlaceholder": "e.g. I am a 45 year old farmer from Tamil Nadu with 2 acres of land...",
+    "fillWithAiFilled": "Filled {{count}} field(s) — please check them below before submitting.",
+    "fillWithAiWorking": "Reading...",
+    "fillWithAiSubmit": "Fill form",
+    "age": "Age",
+    "gender": "Gender",
+    "genderPreferNotToSay": "Prefer not to say",
+    "genderFemale": "Female",
+    "genderMale": "Male",
+    "genderOther": "Other",
+    "state": "State",
+    "selectState": "Select state",
+    "district": "District",
+    "areaType": "Area type",
+    "select": "Select",
+    "rural": "Rural",
+    "urban": "Urban",
+    "occupation": "Occupation",
+    "occupationPlaceholder": "e.g. farmer, student, shop owner",
+    "annualIncome": "Annual family income (₹)",
+    "familySize": "Family size",
+    "areYouStudent": "Are you a student?",
+    "yes": "Yes",
+    "no": "No",
+    "courseOfStudy": "Course of study",
+    "previousPercentage": "Previous academic percentage",
+    "landOwnership": "Land ownership",
+    "landOwned": "Owned",
+    "landLeased": "Leased",
+    "landFamily": "Family land",
+    "landUnknown": "Not sure",
+    "landArea": "Land area (acres)",
+    "employmentStatus": "Employment status",
+    "employed": "Employed",
+    "unemployed": "Unemployed",
+    "selfEmployed": "Self-employed",
+    "businessOwner": "Business owner",
+    "informalWorker": "Informal worker",
+    "hasDisability": "Do you have a disability?",
+    "submit": "Find My Benefits",
+    "saving": "Saving..."
+  },
+
+  "benefits": {
+    "title": "My Benefits",
+    "finding": "Finding relevant schemes...",
+    "updateProfile": "Update my profile",
+    "likelyEligible": "Likely eligible",
+    "needsVerification": "Needs verification",
+    "saved": "Saved",
+    "recommendedNextSteps": "Recommended next steps",
+    "incompleteTitle": "Complete your profile to see personalized matches",
+    "incompleteDesc": "We're currently showing general results. Add your age, state, income, and occupation for more accurate matches.",
+    "buildMyProfile": "Build my profile",
+    "loadError": "Could not load benefits.",
+    "noMatchTitle": "No matching schemes found",
+    "noMatchDesc": "Try adding more information to your profile, browsing another category, or asking the AI directly.",
+    "askAiInstead": "Ask AI instead",
+    "compare": "Compare",
+    "compareSchemes": "Compare schemes",
+    "feature": "Feature",
+    "category": "Category",
+    "eligibility": "Eligibility",
+    "documents": "Documents",
+    "source": "Source"
+  },
+
+  "schemeDetails": {
+    "back": "← Back to My Benefits",
+    "save": "⭐ Save this scheme",
+    "saveNoProfile": "Create a profile first to save schemes.",
+    "savedMessage": "Saved to My Benefits."
+  },
+
+  "auth": {
+    "loginTitle": "Sign in",
+    "loginSubtitle": "Sign in to sync your profile across devices and access saved schemes.",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign in",
+    "signingIn": "Signing in...",
+    "noAccount": "Don't have an account?",
+    "createOne": "Create one",
+    "guestNotice": "You don't need an account to use this app — this is only for saving your profile across devices.",
+    "registerTitle": "Create an account",
+    "registerSubtitle": "Optional — saves your profile and benefits across devices.",
+    "passwordHint": "At least 8 characters.",
+    "passwordTooShort": "Password must be at least 8 characters.",
+    "creatingAccount": "Creating account...",
+    "createAccount": "Create account",
+    "haveAccount": "Already have an account?",
+    "signOut": "Sign out",
+    "signedInAs": "Signed in as {{email}}"
+  },
+
+  "admin": {
+    "title": "Admin",
+    "tab": {
+      "schemes": "Schemes",
+      "accounts": "Accounts",
+      "audit": "Audit log"
+    },
+    "notAuthorized": "You don't have access to the admin area.",
+    "newScheme": "New scheme",
+    "editScheme": "Edit scheme",
+    "schemeId": "Scheme ID",
+    "schemeName": "Scheme name",
+    "description": "Description",
+    "level": "Level",
+    "lastVerified": "Last verified",
+    "ministry": "Ministry",
+    "department": "Department",
+    "applicableStates": "Applicable states",
+    "officialUrl": "Official URL",
+    "sourceUrl": "Source URL",
+    "sourceName": "Source name",
+    "oneLine": " (one per line)",
+    "eligibilityRulesJson": "Eligibility rules (JSON)",
+    "eligibilityRulesHint": "{\"operator\": \"AND\"|\"OR\", \"conditions\": [{\"field\":..., \"operator\":..., \"value\":...} or a nested group]}",
+    "translationsJson": "Translations (JSON, optional)",
+    "translationsHint": "{\"hi\": {\"scheme_name\":..., \"description\":..., \"benefits\":[...], \"required_documents\":[...], \"application_steps\":[...]}, \"ta\": {...}} — any field left out falls back to the English text above.",
+    "isDemo": "Mark as demo/sample data (not a real government scheme)",
+    "saving": "Saving...",
+    "save": "Save",
+    "confirmDelete": "Delete this scheme? This cannot be undone.",
+    "edit": "Edit",
+    "delete": "Delete",
+    "role": "Role",
+    "createdAt": "Created",
+    "lastLogin": "Last login",
+    "noAuditEntries": "No admin actions logged yet.",
+    "invalidJson": "This isn't valid JSON."
+  },
+
+  "settings": {
+    "title": "Settings & Accessibility",
+    "language": "Language",
+    "theme": "Theme",
+    "themeSystem": "System",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "largeText": "Large text",
+    "highContrast": "High contrast",
+    "profileId": "Profile ID",
+    "notCreatedYet": "Not created yet",
+    "platformMetrics": "Platform metrics",
+    "metricsDesc": "Actual measured counts from this deployment — not projected impact.",
+    "loadMetrics": "Load metrics"
+  }
+}

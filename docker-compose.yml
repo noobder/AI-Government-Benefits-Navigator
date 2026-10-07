@@ -1,0 +1,69 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: benefits
+      POSTGRES_PASSWORD: benefits
+      POSTGRES_DB: benefits_navigator
+    ports:
+      - "5432:5432"
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U benefits"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      ENVIRONMENT: production
+      DATABASE_URL: postgresql+psycopg2://benefits:benefits@postgres:5432/benefits_navigator
+      # Set these in a .env file next to this docker-compose.yml (see .env.example).
+      LLM_PROVIDER: ${LLM_PROVIDER:-mock}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_MODEL: ${LLM_MODEL:-}
+      EMBEDDING_PROVIDER: keyword
+      SEED_DATA_PATH: /data/seed_schemes.json
+      # Frontend is same-origin via nginx proxy (both served on :8080), so
+      # normal app traffic never even hits CORS — this only matters for
+      # direct cross-origin API testing. Must be an exact origin, not "*",
+      # since auth cookies now require allow_credentials=True and browsers
+      # refuse to combine a wildcard origin with credentialed requests.
+      CORS_ORIGINS: http://localhost:8080
+      # This compose file serves plain HTTP (no TLS termination), so auth
+      # cookies must NOT be marked Secure or the browser will silently drop
+      # them — override the ENVIRONMENT=production default explicitly.
+      COOKIE_SECURE: "false"
+      SECRET_KEY: dev-only-change-in-real-deployment
+      # Optional: set both to seed a first admin account on startup.
+      # ADMIN_EMAIL: admin@example.com
+      # ADMIN_PASSWORD: change-me-immediately
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./data:/data:ro
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  pg_data:

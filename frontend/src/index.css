@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- Theme tokens ----------
+   Light palette on :root; dark palette redefines the same tokens under
+   prefers-color-scheme (system) and [data-theme="dark"] (explicit choice),
+   so system/light/dark all resolve correctly. Components should use these
+   via arbitrary-value classes (bg-[var(--surface)] etc.) instead of
+   hardcoded neutral-* colors, so theming is a token swap, not a per-file edit. */
+:root {
+  color-scheme: light;
+  --bg: #f6f7f4;
+  --surface: #ffffff;
+  --surface-2: #eef1ec;
+  --surface-3: #e4e9e1;
+  --ink: #142019;
+  --ink-muted: #5a6b60;
+  --line: #dde4dc;
+  --line-strong: #c7d1c3;
+  --brand: #1f6b4c;
+  --brand-strong: #17543b;
+  --brand-weak: #e4efe8;
+  --accent: #c9740a;
+  --accent-weak: #fbebd6;
+  --danger: #a8402a;
+  --danger-weak: #fbe6e1;
+  --focus-ring: #1f6b4c;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #10160f;
+    --surface: #171f18;
+    --surface-2: #1d2820;
+    --surface-3: #263329;
+    --ink: #eaf1ec;
+    --ink-muted: #93a79c;
+    --line: #2b3a30;
+    --line-strong: #37493c;
+    --brand: #55c491;
+    --brand-strong: #7ad6ac;
+    --brand-weak: #17281f;
+    --accent: #e2953d;
+    --accent-weak: #2c2013;
+    --danger: #e2795f;
+    --danger-weak: #2e1a15;
+    --focus-ring: #55c491;
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #10160f;
+  --surface: #171f18;
+  --surface-2: #1d2820;
+  --surface-3: #263329;
+  --ink: #eaf1ec;
+  --ink-muted: #93a79c;
+  --line: #2b3a30;
+  --line-strong: #37493c;
+  --brand: #55c491;
+  --brand-strong: #7ad6ac;
+  --brand-weak: #17281f;
+  --accent: #e2953d;
+  --accent-weak: #2c2013;
+  --danger: #e2795f;
+  --danger-weak: #2e1a15;
+  --focus-ring: #55c491;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+/* Contrast/large-text remain separate, additive accessibility toggles on
+   top of whichever theme is active (not a theme themselves). Large-text is
+   applied as a root <html> font-size (see App.tsx), not a wrapper class,
+   because Tailwind's text-* utilities use rem units, which only respond to
+   the root element's font-size — an em-scaled ancestor div has no effect. */
+.high-contrast {
+  filter: contrast(1.25);
+}
+
+/* .simple-mode is applied to the root wrapper (see App.tsx) as a marker
+   class; individual pages (currently Home) read it via useAppState().simpleMode
+   to restructure their own layout rather than relying on cascading CSS here. */
+
+:focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+@layer components {
+  .input {
+    @apply w-full rounded-lg border px-3 py-3 text-base;
+    background: var(--surface);
+    color: var(--ink);
+    border-color: var(--line-strong);
+  }
+  .input:focus-visible {
+    outline: 3px solid var(--focus-ring);
+    outline-offset: 1px;
+  }
+  .input::placeholder {
+    color: var(--ink-muted);
+  }
+}

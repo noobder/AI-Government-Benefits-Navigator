@@ -1,0 +1,14 @@
+[DEMO] Sample Scholarship Guidelines
+
+This is a SAMPLE supplementary document for demonstration purposes only. It
+does not represent a real government notification.
+
+Overview:
+This document illustrates how supplementary guideline documents (FAQs,
+notifications, circulars) can be ingested and indexed alongside the core
+structured scheme database, to give the chat assistant richer grounded
+context to cite when answering questions.
+
+Eligibility notes:
+Applicants should refer to the official scheme record for authoritative
+eligibility rules. This document only provides general guidance text.
