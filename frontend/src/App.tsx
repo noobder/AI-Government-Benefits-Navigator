@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import ReadAloudButton from "./components/ReadAloudButton";
 import HelpPanel from "./components/HelpPanel";
+import Welcome from "./components/Welcome";
 import Home from "./pages/Home";
 import Chat from "./pages/Chat";
 import Profile from "./pages/Profile";
@@ -47,6 +48,7 @@ export default function App() {
   const [simpleMode, setSimpleMode] = useLocalStorageState<boolean>("bn_simple_mode", false);
   const [signInputEnabled, setSignInputEnabled] = useLocalStorageState<boolean>("bn_sign_input", false);
   const [signAnimationEnabled, setSignAnimationEnabled] = useLocalStorageState<boolean>("bn_sign_animation", false);
+  const [welcomed, setWelcomed] = useLocalStorageState<boolean>("bn_welcomed", false);
   const [account, setAccount] = useState<Account | null>(null);
   const [authLoading, setAuthLoading] = useState(true);
   const { i18n } = useTranslation();
@@ -111,22 +113,28 @@ export default function App() {
     >
       <div className={`min-h-screen ${highContrast ? "high-contrast" : ""} ${simpleMode ? "simple-mode" : ""}`}>
         <BrowserRouter>
-          <Header />
-          <main id="main-content">
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/chat" element={<Chat />} />
-              <Route path="/profile" element={<Profile />} />
-              <Route path="/benefits" element={<Benefits />} />
-              <Route path="/schemes/:schemeId" element={<SchemeDetails />} />
-              <Route path="/settings" element={<Settings />} />
-              <Route path="/login" element={<Login />} />
-              <Route path="/register" element={<Register />} />
-              <Route path="/admin" element={<Admin />} />
-            </Routes>
-          </main>
-          <ReadAloudButton />
-          <HelpPanel />
+          {!welcomed ? (
+            <Welcome onContinue={() => setWelcomed(true)} />
+          ) : (
+            <>
+              <Header />
+              <main id="main-content">
+                <Routes>
+                  <Route path="/" element={<Home />} />
+                  <Route path="/chat" element={<Chat />} />
+                  <Route path="/profile" element={<Profile />} />
+                  <Route path="/benefits" element={<Benefits />} />
+                  <Route path="/schemes/:schemeId" element={<SchemeDetails />} />
+                  <Route path="/settings" element={<Settings />} />
+                  <Route path="/login" element={<Login />} />
+                  <Route path="/register" element={<Register />} />
+                  <Route path="/admin" element={<Admin />} />
+                </Routes>
+              </main>
+              <ReadAloudButton />
+              <HelpPanel />
+            </>
+          )}
         </BrowserRouter>
       </div>
     </AppContext.Provider>

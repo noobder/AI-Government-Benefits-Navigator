@@ -79,6 +79,16 @@
     }
   },
 
+  "welcome": {
+    "title": "Benefits Navigator",
+    "tagline": "Find government welfare schemes you may be eligible for — explained clearly, in your language.",
+    "description": "This app helps you discover central and state government schemes, understand exactly why you do or don't qualify, and prepare the right documents — all for free, with no account required to get started.",
+    "letsGo": "Let's Go",
+    "signIn": "Sign in",
+    "alreadySignedUp": "Already have an account?",
+    "continueAsGuest": "You can explore freely as a guest — signing in is optional and only adds syncing across your devices."
+  },
+
   "home": {
     "headline": "Find Government Benefits You May Be Eligible For",
     "subheadline": "Tell us about your situation. We'll help you discover relevant government schemes, understand the eligibility requirements, prepare your documents, and find the official application process.",
